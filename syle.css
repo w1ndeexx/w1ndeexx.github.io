@@ -1,0 +1,260 @@
+body { 
+    background-image: url(mogod.png);
+    height: 100vh;
+    width: 100hv;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin:  0px 10px;
+}
+
+.nav-bar a { 
+    color: inherit;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .3s linear;
+    
+}
+
+.nav-bar a:hover { 
+   text-decoration: none;
+   color: rgba(220, 191, 148, 0.541);
+}
+
+.logo{ 
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    
+}
+
+.nav-bar {
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.nav{
+    position: relative;
+}
+
+
+.nav:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    background-color: aliceblue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: all .9 linear;
+}
+
+.nav:hover:after{
+    display: block;
+    color: aliceblue;
+    opacity: 1;
+    /* белое underline */ 
+}
+
+/* into */ 
+
+
+.Welcome {
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center ;
+    line-height: 1;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Welcome::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: beige;
+    margin: 40px auto 0;
+}
+
+.intro-lop {
+    width: 100%;
+    width: 860px;
+    margin: 0 auto;
+}
+
+
+.sup {
+    font-family: 'Alkatra', cursive;
+    text-align: center ;
+    line-height: 1;
+    color: aliceblue;
+    font-size: 72px;
+    margin: 0;
+    
+}
+.intro { 
+   margin-top: 60px;    
+   text-align: center;
+}
+
+.button  { 
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 13px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 15px;
+    transition: all .8s linear;
+    border: 3px solid white;
+
+}
+
+.button:hover{
+    background-color: black;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgba(220, 191, 148, 0.541);
+}
+
+
+/* last one of the first page */
+
+
+.last-one { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.number {  
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.tex{
+    position: relative;
+     width: 17%;
+     padding: 20px 0;
+     font-size: 18px;
+     text-transform: uppercase;
+     border-top: 3px solid floralwhite;
+     opacity: 0.6;
+
+}
+
+
+.tex:first-of-type{
+    opacity: 1;
+}
+
+
+.new-slide { 
+    padding: 80px 0;
+    background-repeat: no-repeat;
+}
+
+.sl-header{ 
+    text-align: center; 
+}
+
+
+.supq {
+    
+    font-family: 'Alkatra', cursive;
+    text-align: center;  
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+.titl{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    margin: 0;
+    padding: 7px;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.titl::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 153, 0);
+    margin: 40px auto 0;
+}
+
+.text { 
+    font-size: 15px;
+    color: #999;
+    
+    padding-left: 370px;
+    width: 748px;
+}
+
+.spot {  
+    align-items: center;
+     width: 700px;
+     margin: auto;
+}
+
+
+.photos{ 
+    margin-left: 150px;
+    display: flex;
+}
+
+.cube{ 
+    opacity: 0.3;
+    align-items: center;
+    background-color: green;
+    height: 300px;
+    width: 300px ;
+    display: inline-block;
+    margin: 40px;
+}
+
+
+.impp1 {
+    margin: 40px;
+    height: 300px;
+    width: 300px ;
+}
+
+
+.for { 
+
+    border-color: blueviolet;
+    border: 3px solid rgb(0, 0, 0);
+   display: block;
+   border: 34px;
+}
